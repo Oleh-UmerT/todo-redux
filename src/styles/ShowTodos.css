@@ -1,0 +1,16 @@
+.todoBlock {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todoTitle {
+    font-size: 24px;
+}
+
+.todoText {
+    font-size: 20px;
+}
