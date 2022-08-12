@@ -8,8 +8,7 @@ import './styles/index.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-const store = configureStore({reducer: todos});
-
+const store = configureStore({ reducer: todos });
 
 root.render(
   <React.StrictMode>
